@@ -1,0 +1,6 @@
+# Required in production: generate a strong random value of at least 32 characters.
+JWT_SECRET=replace-with-a-long-random-secret
+APP_ENV=development
+# Local development default is SQLite. For PostgreSQL use a SQLAlchemy URL, e.g.:
+# DATABASE_URL=postgresql+psycopg://user:password@host:5432/guardrail
+JWT_EXPIRE_MINUTES=720
